@@ -1,0 +1,109 @@
+header {
+  width: 100vw;
+  height: 20vh;
+  white-space: nowrap;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0;
+}
+header nav {
+  float: left;
+  width: 45%;
+}
+header #logo1 {
+  float: left;
+  width: 5%;
+  padding: 0 15px 0 15px;
+  border-radius: 10px;
+}
+header #contacts {
+  float: right;
+  width: 40%;
+}
+div #tel {
+  color: #ee1c1f;
+}
+div #button {
+  color: #ee1c1f;
+  border: 1px solid #ee1c1f;
+  background-color: white;
+  cursor: pointer;
+}
+li a:visited {
+  color: crimson;
+}
+li a:hover {
+  font-size: larger;
+}
+li a :active {
+  color: aqua;
+}
+.box1 {
+  width: 50vw;
+  height: 50px;
+  display: inline-block;
+  padding: 30px 60px 30px 60px;
+}
+#logo2 {
+  float: left;
+  width: 10%;
+}
+#slogan {
+  float: right;
+  width: 90%;
+}
+.box2 {
+  width: 50vw;
+  height: 200px;
+  display: inline-block;
+  padding: 30px 20px 30px 20px;
+}
+#logo3 {
+  float: left;
+  height: 30vh;
+  width: 30%;
+}
+#title {
+  float: right;
+  width: 70%;
+}
+h1,
+h4,
+h6 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+h1,
+h6 {
+  color: #ee1c1f;
+  text-transform: uppercase;
+}
+h4 {
+  text-transform: uppercase;
+  color: black;
+}
